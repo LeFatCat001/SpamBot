@@ -6,6 +6,7 @@ cdef str word = ""
 cdef int times = 0
 
 while True:
+    os.system("cls")
     word = input("word >> ")
     times = int(input("times [int] >> "))
 
